@@ -172,7 +172,7 @@ URL: /api/v1/trackers
 }
 ```
 
-###2. 轨迹播放 trip replay
+### 2. 轨迹播放 trip replay
 URL： /api/v1/trip/replay
 
 支持方法： GET
@@ -272,7 +272,7 @@ Example:
   }
 }
 ```
-###3. 轨迹时间轴 trip timeline
+### 3. 轨迹时间轴 trip timeline
 
 URL: /api/v1/trip/timeline
 
@@ -402,7 +402,7 @@ Example：
 }
 ```
 
-### 用户资料 user profile
+### 4. 用户资料 user profile
 支持方法： PUT
 
 支持客户端：Web,Android,IOS
@@ -489,7 +489,7 @@ Example
 ```json
 {"status": 200, "message": "Operation is successful."}
 ```
-##4. 修改用户密码 change password
+### 5. 修改用户密码 change password
 URL：/api/v1/password
 
 支持方法: PUT
@@ -520,7 +520,7 @@ Example：
 {"status": 200, "message": "Operation is successful."}
 ```
 
-##5. 退出登录
+## 6. 退出登录
 URL：/api/v1/logout 
 
 支持方法: GET
